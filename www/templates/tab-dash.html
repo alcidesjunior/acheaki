@@ -1,0 +1,14 @@
+<ion-view view-title="Achaki">
+  <ion-content class="padding">
+    <div class="list">
+      <label class="item item-input">
+        <i class="icon ion-ios-search placeholder-icon"></i>
+        <input type="text" placeholder="Entre com o CEP" ng-change="searchAddress(cep)" maxlength="8" ng-model="cep">
+      </label>
+    </div>
+    <ul class="list" ng-repeat="(key,value) in datas">
+      <li class="item"><strong>{{key.toUpperCase()}}</strong><br>{{value}}</li>
+    </ul>
+  </ion-content>
+  aslkdja
+</ion-view>
